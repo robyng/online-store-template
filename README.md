@@ -43,6 +43,15 @@ Otherwise follow these commands one line at a time in your terminal to create th
 
     quit
 
+Return to your terminal and create a .env file
+
+    touch .env
+
+Add this code below to the .env file OR if your using a different Database and Password replace it with what you are using.
+
+    DB_NAME='ecommerce_db'
+    DB_USER='root'
+    DB_PW='password'
 
 ### Usage
 
@@ -72,4 +81,8 @@ http://localhost:3001/api/categories/{id}
 http://localhost:3001/api/tags/{id}
 
 Watch this walkthrough showing how the program can be used:
-https://watch.screencastify.com/v/bdJeEYdQTpxNwX5QFSZ3
+Part 1: Clone and Start Ecommerce API
+https://watch.screencastify.com/v/xZ8rNE6D5GzKqg9iJclT
+
+Part 2: Test Categories and Tags with Insomnia
+https://watch.screencastify.com/v/hASISABuhFRny5gcInFr 
